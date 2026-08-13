@@ -46,7 +46,12 @@ echo.
 echo ========================================
 if exist "dist\PasswordGenerator.exe" (
     echo Build Complete!
-    echo Executable: %CD%\dist\PasswordGenerator.exe
+    echo.
+    echo Executable location: %CD%\dist\PasswordGenerator.exe
+    echo.
+    echo NEXT STEPS:
+    echo 1. Right-click PasswordGenerator.exe and rename to your preferred Chinese name
+    echo 2. If icon appears blurry, use ResourceHacker or similar tool to replace icon
 ) else (
     echo Build FAILED - .exe not found. Check errors above.
 )
